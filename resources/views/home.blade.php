@@ -1,9 +1,11 @@
 @extends('layouts.app')
 
+{{-- on affecte accueil à la varible title --}}
 @section('title')
     Accueil
 @endsection
 
+{{-- on affecte une valeur à la varible content --}}
 @section('content')
 <div class="row mb-2">
     <div class="col-md-6">

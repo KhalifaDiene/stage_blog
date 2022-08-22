@@ -15,7 +15,7 @@ class CreateCommentairesTable extends Migration
     {
         Schema::create('commentaires', function (Blueprint $table) {
             $table->id();
-            $table->text('content');
+            $table->mediumText('content');
             $table->boolean('status')->default(1);
 
             $table->unsignedBigInteger('user_id');
